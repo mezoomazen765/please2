@@ -24,114 +24,114 @@ client6.login(process.env.TOKEN6);
 
 
 client.on('message', message => {
-  if (message.content === 'd1') {
+  if (message.content === 'd21') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c1'){
+  if(message.content === 'c21'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r1'){
+  if(message.content === 'r21'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p1') {
+  if (message.content === 'p21') {
 message.channel.send('#profile')
   }
-  if(message.content.startsWith("s1")) {
+  if(message.content.startsWith("s21")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
  
 client2.on('message', message => {
-  if (message.content === 'd2') {
+  if (message.content === 'd22') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c2'){
+  if(message.content === 'c22'){
 message.channel.send('#credits')
   }
-   if(message.content === 'r2'){
+   if(message.content === 'r22'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p2') {
+  if (message.content === 'p22') {
 message.channel.send('#profile')
   }
-  if(message.content.startsWith("s2")) {
+  if(message.content.startsWith("s22")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
  
 client3.on('message', message => {
-  if (message.content === 'd3') {
+  if (message.content === 'd23') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c3'){
+  if(message.content === 'c23'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r3'){
+  if(message.content === 'r23'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p3') {
+  if (message.content === 'p23') {
 message.channel.send('#profile')
   }
-  if(message.content.startsWith("s3")) {
+  if(message.content.startsWith("s23")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
  
 client4.on('message', message => {
-  if (message.content === 'd4') {
+  if (message.content === 'd24') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c4'){
+  if(message.content === 'c24'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r4'){
+  if(message.content === 'r24'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p4') {
+  if (message.content === 'p24') {
 message.channel.send('#profile')
   }
-  if(message.content.startsWith("s4")) {
+  if(message.content.startsWith("s24")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
  
 client5.on('message', message => {
-  if (message.content === 'd5') {
+  if (message.content === 'd25') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c5'){
+  if(message.content === 'c25'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r5'){
+  if(message.content === 'r25'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p5') {
+  if (message.content === 'p25') {
 message.channel.send('#profile')
   }
-  if(message.content.startsWith("s5")) {
+  if(message.content.startsWith("s25")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
 });
 
 client6.on('message', message => {
-  if (message.content === 'd6') {
+  if (message.content === 'd26') {
 message.channel.send('#daily')
   }
-  if(message.content === 'c6'){
+  if(message.content === 'c26'){
 message.channel.send('#credits')
   }
-  if(message.content === 'r6'){
+  if(message.content === 'r26'){
 message.channel.send("#rep "+"<@" + myid + ">")
   }
-  if (message.content === 'p6') {
+  if (message.content === 'p26') {
 message.channel.send('#profile')
   }
-  if(message.content.startsWith("s6")) {
+  if(message.content.startsWith("s26")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
   }
@@ -181,7 +181,7 @@ client6.on('message', message => {
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 
 client.on('message', message => {
-if (message.content === prefix+'fast') {
+if (message.content === prefix+'fast1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
@@ -195,7 +195,7 @@ if (message.content === prefix+'fast') {
 });
 
 client2.on('message', message => {
-if (message.content === prefix+'fast') {
+if (message.content === prefix+'fast1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
@@ -209,7 +209,7 @@ if (message.content === prefix+'fast') {
 });
 
 client3.on('message', message => {
-if (message.content === prefix+'fast') {
+if (message.content === prefix+'fast1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
@@ -223,7 +223,7 @@ if (message.content === prefix+'fast') {
 });
 
 client4.on('message', message => {
-if (message.content === prefix+'fast') {
+if (message.content === prefix+'fast1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
@@ -237,7 +237,7 @@ if (message.content === prefix+'fast') {
 });
 
 client5.on('message', message => {
-if (message.content === prefix+'fast') {
+if (message.content === prefix+'fast1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
@@ -251,7 +251,7 @@ if (message.content === prefix+'fast') {
 });
 
 client6.on('message', message => {
-if (message.content === prefix+'fast') {
+if (message.content === prefix+'fast1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 30000; x++) {
